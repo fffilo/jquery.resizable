@@ -136,6 +136,10 @@
             var pos = data.position;
             var css = $.extend({}, stl);
 
+            // auto right/bottom
+            css.right = "auto";
+            css.bottom = "auto";
+
             // calculate new position/size
             if (hdl.indexOf("n") !== -1) css.top -= pos.start.y - pos.current.y;
             if (hdl.indexOf("n") !== -1) css.height += pos.start.y - pos.current.y;
