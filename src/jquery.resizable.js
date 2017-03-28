@@ -41,6 +41,11 @@
         _handle_mousedown: function(e) {
             if (e.which !== 1) return;
 
+            // mouseup outside viewport fix
+            if ($(window).data("jquery-resizable")) {
+                this._handle_mouseup(e);
+            }
+
             var that = this;
             var data = {
                 element: this.element,
