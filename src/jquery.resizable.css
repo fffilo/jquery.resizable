@@ -1,0 +1,19 @@
+.jquery-resizable { position: relative; }
+.jquery-resizable .jquery-resizable-handle { position: absolute; width: 0.5em; height: 0.5em; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="n"] { top: -0.25em; right: 0; left: 0; width: auto; cursor: n-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="e"] { top: 0; right: -0.25em; bottom: 0; height: auto; cursor: e-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="s"] { right: 0; bottom: -0.25em; left: 0; width: auto; cursor: s-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="w"] { top: 0; bottom: 0; left: -0.25em; height: auto; cursor: w-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="nw"] { top: -0.25em; left: -0.25em; cursor: nw-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="ne"] { top: -0.25em; right: -0.25em; cursor: ne-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="se"] { right: -0.25em; bottom: -0.25em; cursor: se-resize; }
+.jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="sw"] { bottom: -0.25em; left: -0.25em; cursor: sw-resize; }
+
+body.jquery-resizable-n, body.jquery-resizable-n * { cursor: n-resize; }
+body.jquery-resizable-e, body.jquery-resizable-e * { cursor: e-resize; }
+body.jquery-resizable-s, body.jquery-resizable-s * { cursor: s-resize; }
+body.jquery-resizable-w, body.jquery-resizable-w * { cursor: w-resize; }
+body.jquery-resizable-nw, body.jquery-resizable-nw * { cursor: nw-resize; }
+body.jquery-resizable-ne, body.jquery-resizable-ne * { cursor: ne-resize; }
+body.jquery-resizable-se, body.jquery-resizable-se * { cursor: se-resize; }
+body.jquery-resizable-sw, body.jquery-resizable-sw * { cursor: sw-resize; }
