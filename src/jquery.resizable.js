@@ -48,9 +48,9 @@
                 startStyle: {
                     left: $(this.element).position().left,
                     top: $(this.element).position().top,
-                    width: $(this.element).width(),
+                    width: $(this.element).outerWidth(),
                     minWidth: parseInt($(this.element).css("min-width")),
-                    height: $(this.element).height(),
+                    height: $(this.element).outerHeight(),
                     minHeight: parseInt($(this.element).css("min-height"))
                 },
                 position: {
