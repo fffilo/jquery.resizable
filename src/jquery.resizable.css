@@ -9,11 +9,11 @@
 .jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="se"] { right: -0.25em; bottom: -0.25em; cursor: se-resize; }
 .jquery-resizable .jquery-resizable-handle[data-jquery-resizable-direction="sw"] { bottom: -0.25em; left: -0.25em; cursor: sw-resize; }
 
-body.jquery-resizable-n, body.jquery-resizable-n * { cursor: n-resize !important; }
-body.jquery-resizable-e, body.jquery-resizable-e * { cursor: e-resize !important; }
-body.jquery-resizable-s, body.jquery-resizable-s * { cursor: s-resize !important; }
-body.jquery-resizable-w, body.jquery-resizable-w * { cursor: w-resize !important; }
-body.jquery-resizable-nw, body.jquery-resizable-nw * { cursor: nw-resize !important; }
-body.jquery-resizable-ne, body.jquery-resizable-ne * { cursor: ne-resize !important; }
-body.jquery-resizable-se, body.jquery-resizable-se * { cursor: se-resize !important; }
-body.jquery-resizable-sw, body.jquery-resizable-sw * { cursor: sw-resize !important; }
+body.jquery-resizable-resizing-n, body.jquery-resizable-resizing-n * { cursor: n-resize !important; }
+body.jquery-resizable-resizing-e, body.jquery-resizable-resizing-e * { cursor: e-resize !important; }
+body.jquery-resizable-resizing-s, body.jquery-resizable-resizing-s * { cursor: s-resize !important; }
+body.jquery-resizable-resizing-w, body.jquery-resizable-resizing-w * { cursor: w-resize !important; }
+body.jquery-resizable-resizing-nw, body.jquery-resizable-resizing-nw * { cursor: nw-resize !important; }
+body.jquery-resizable-resizing-ne, body.jquery-resizable-resizing-ne * { cursor: ne-resize !important; }
+body.jquery-resizable-resizing-se, body.jquery-resizable-resizing-se * { cursor: se-resize !important; }
+body.jquery-resizable-resizing-sw, body.jquery-resizable-resizing-sw * { cursor: sw-resize !important; }

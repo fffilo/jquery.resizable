@@ -69,7 +69,7 @@
             }
 
             $("body")
-                .addClass("jquery-resizable-" + data.handle);
+                .addClass("jquery-resizable-resizing-" + data.handle);
 
             $(window)
                 .data("jquery-resizable", data)
@@ -100,7 +100,7 @@
                 y: e.pageY
             }
 
-            this._set_size();
+            this._recalc();
 
             $(data.element).trigger("resizablemove", data);
         },
@@ -124,15 +124,15 @@
                 .off(".jquery-resizable");
 
             $("body")
-                .removeClass("jquery-resizable-" + data.handle);
+                .removeClass("jquery-resizable-resizing-" + data.handle);
         },
 
         /**
-         * Set element size
+         * Recalculate element size/position
          *
          * @return {Void}
          */
-        _set_size: function() {
+        _recalc: function() {
             var data = $(window).data("jquery-resizable");
             if (!data) return;
 
