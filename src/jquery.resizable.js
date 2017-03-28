@@ -39,6 +39,8 @@
          * @return {Void}
          */
         _handle_mousedown: function(e) {
+            if (e.which !== 1) return;
+
             var that = this;
             var data = {
                 element: this.element,
